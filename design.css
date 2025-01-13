@@ -1,0 +1,47 @@
+body {
+    width: 370px;
+}
+input{
+    font-size: 35px;
+    font:lighter;
+    width: 88px;
+    height: 70px;
+    border-radius: 5px;
+    background-color: white;
+    outline: 1px;
+    border-color: rgb(245, 245, 245);
+    box-shadow: 0;
+}
+
+
+#sign {
+    background-color: rgb(235, 235, 235) !important;
+}
+
+#equal {
+    background-color:rgb(67, 116, 207) !important;
+    color: white !important;
+    border-color: rgb(67, 116, 207) !important;
+}
+
+#answer {
+    font-size: 55px;
+    text-align: right;
+    margin-right: 5px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+#old_answer {
+    margin-top: 40px;
+    margin-bottom:0px ;
+    font-size: 30px;
+    text-align: right;
+    color: rgb(80, 80, 80);
+}
+p {
+    margin-top:5px ;
+    margin-bottom:5px ;
+}
+body {
+    background-color: rgb(245, 245, 245) ;
+}
