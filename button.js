@@ -63,7 +63,7 @@ function sign(si){
             
         }
         if(sign2 == '-'){
-            old_answer = Number(old_num) + Number(n)
+            old_answer = Number(old_num) - Number(n)
             
         }
         if(sign2 == '×'){
