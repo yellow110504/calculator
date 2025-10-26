@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    
+    <link rel="stylesheet" href="design.css"/>
+    <p id = old_answer></p>
+    <h1 id = answer></h1>
+    <script src="./button.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width666=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    
+</head>
+<body>
+
+    <p><input type="button" id=sign value="&#94;" onclick="
+        sign('&#94;')
+        "> 
+        <input type="button" id=sign value="&radic;" onclick="
+        root()
+        "> 
+        <input type="button" id=sign value="C" onclick="
+        sign('C')
+        ">
+        <input  type="button" id=sign value="&lt;" onclick="
+        delet()
+        "></p>
+    <p><input type="button" value="7" onclick="
+        typing('7')
+        ">
+        <input type="button" value="8" onclick="
+        typing('8')
+        ">
+        <input type="button" value="9" onclick="
+        typing('9')
+        ">
+        <input type="button" id=sign value="&#247;" onclick="
+        sign('&#247;')
+        "></p>
+    <p><input type="button" value="4" onclick="
+        typing('4')
+        ">
+        <input type="button" value="5" onclick="
+        typing('5')
+        ">
+        <input type="button" value="6" onclick="
+        typing('6')
+        ">
+        <input type="button" id=sign value="&#215;" onclick="
+        sign('&#215;')
+        "></p>
+    <p><input type="button" value="1" onclick="
+        typing('1')
+        ">
+        <input type="button" value="2" onclick="
+        typing('2')
+        ">
+        <input type="button" value="3" onclick="
+        typing('3')
+        ">
+        <input type="button" id=sign value="&#45;" onclick="
+        sign('&#45;')
+        "></p>
+    <p><input type="button" value="0" onclick="
+        typing('0')
+        ">
+        <input type="button" value="." onclick="
+        typing('.')
+        ">
+        <input type="button"  id=equal value="&#61;" onclick="
+        sign('&#61;')
+        ">
+        <input type="button" id=sign value="&#43;" onclick="
+        sign('&#43;')
+
+        "></p>
+</body>
+</html>
